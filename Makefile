@@ -52,6 +52,7 @@ test:
 django-init:
 	python manage.py makemigrations
 	python manage.py migrate
+	python manage.py createsuperuser
 
 django-runserver:
 	python manage.py runserver
